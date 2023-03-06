@@ -1,0 +1,151 @@
+#zatemnenie {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 270%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+  }
+  
+  #okno {
+    width: 600px;
+    height: 940px;
+    padding: 15px;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    bottom: 330;
+    left: 0;
+    margin: auto;
+    background: #fff;
+    transform: translateY(15%) scale(.9);
+  }
+  
+  #zatemnenie:target {display: block;}
+  .close {
+    display: inline-block;
+    padding: 0 12px;
+    margin-left: 470px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor:pointer;
+  }
+  .close:hover {background: #e6e6ff;}
+
+  input {
+margin: 0;
+font-size: 100%;
+height: 60px;
+padding: 0 20px;
+font-size: 16px;
+line-height: 1.33;
+width: 90%;
+color: #000000;
+border: 1px solid #d6b981;
+border-radius: 1px;
+
+}
+
+  select {
+  margin: 0;
+  font-size: 100%;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.33;
+  width: 90%;
+  color: #000000;
+  border: 1px solid #d6b981;
+  border-radius: 1px;
+  }
+
+ 
+.kr  {
+  position: absolute; left: 45;
+  color: white;
+  font-size: 17px;
+  font-family: 'MuseoSans',Arial,sans-serif;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+
+  .dyv {
+    position: absolute; 
+    top: 230; 
+    left: 530; 
+    width: 470px;
+    height: 400; 
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0px 0px 80px 15px rgba(0, 0, 0, 0.7);
+}
+.imgr {
+    margin-left: 130;
+    margin-top: 40;
+    width: 200; 
+    height: 200;
+}
+.kr  {
+    position: absolute; left: 45;
+    color: white;
+    font-size: 17px;
+    font-family: 'MuseoSans',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+  }
+
+
+
+
+
+    #zatemnenie2 {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 270%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        
+      }
+      
+      #okno2 {
+        width: 950px;
+        height: 600px;
+        padding: 15px;
+        border-radius: 10px;
+        top: 0;
+        right: 0;
+        bottom: 330;
+        left: 0;
+        margin: auto;
+        background: #fff;
+        transform: translateY(20%) scale(.9);
+      }
+      
+      #zatemnenie2:target {display: block;}
+      .close2 {
+        display: inline-block;
+        padding: 0 12px;
+        margin-left: 900px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+      .close:hover {background: #e6e6ff;}
+
+      .btn {
+        margin: 0;
+        height: 60px;
+        font-size: 16px;
+        line-height: 1.33;
+        width: 50%;
+        color: #000000;
+        border: 1px solid #d6b981;
+        border-radius: 1px;
+      }
+
